@@ -18,7 +18,7 @@ namespace FunctionApp1
        ILogger log)
         {
             log.LogInformation("C# HTTP trigger function processed a request.");
-            return new OkObjectResult("Hello from Function2!");
+            return new OkObjectResult("Hello from Function2!, i am archana");
         }
     }
 }
